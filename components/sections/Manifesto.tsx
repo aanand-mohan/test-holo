@@ -63,7 +63,7 @@ export default function Manifesto() {
 
                 <ScrollRevealBlock>
                     <h2 className="text-[32px] md:text-[56px] font-bold leading-[1.2] text-[#1D1D1F] tracking-tight">
-                        At Holo we're revolutionizing how founders create
+                        At Holo we&apos;re revolutionizing how founders create
                         <span className="inline-flex items-center justify-center w-12 h-12 md:w-20 md:h-20 mx-3 align-middle translate-y-[-8px]">
                             <video
                                 src="/videos/icon-bulb.mp4"

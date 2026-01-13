@@ -236,7 +236,7 @@ export default function Navbar() {
                             className="overflow-hidden"
                           >
                             <div className="flex flex-col pl-2 pt-4 gap-4">
-                              {item.children.map((child: any) => (
+                              {item.children.map((child: { name: string; color?: string; href?: string }) => (
                                 <Link
                                   key={child.name}
                                   href={child.href || "#"}
