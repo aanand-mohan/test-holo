@@ -5,32 +5,32 @@ import { motion } from "framer-motion";
 const steps = [
   {
     step: "01",
-    title: "Input your URL",
-    text: "Drop your website link and Holo's AI will learn your brand in minutes.",
+    title: "Paste Product Link",
+    text: "Our AI scans your product page, extracting key features, benefits, and customer reviews.",
     video:
       "https://framerusercontent.com/assets/xraB9gTdokcD9EEBke0DIbvXzXU.mp4",
     gradient: "from-[#3E86C6] to-[#A666AA]",
   },
   {
     step: "02",
-    title: "Swipe ideas",
-    text: "Our AI content creator delivers fresh ideas every single day",
+    title: "AI Generates Scripts",
+    text: "Get 5 viral script options with hooks, body, and CTA optimized for conversion.",
     video:
       "https://framerusercontent.com/assets/s9If74dnp3LTbVF2LYWmlmvaN8.mp4",
     gradient: "from-[#A666AA] to-[#EC4492]",
   },
   {
     step: "03",
-    title: "Edit & customize",
-    text: "Change anything, no design skills needed.",
+    title: "Auto-Edit Video",
+    text: "AI assembles stock footage, upbeat music, and voiceovers. Refine with one click.",
     video:
       "https://framerusercontent.com/assets/0uCEojyWXbdNzE6zejj75lnC4.mp4",
     gradient: "from-[#EE4454] to-[#F05427]",
   },
   {
     step: "04",
-    title: "Download & publish",
-    text: "Launch 10x more content, 75% faster.",
+    title: "Go Viral",
+    text: "Export in 4K resolution ready for TikTok, Instagram Reels, and YouTube Shorts.",
     video: null,
     gradient: "from-gray-300 to-gray-300",
   },

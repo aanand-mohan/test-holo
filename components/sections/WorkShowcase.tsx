@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 import CanvasImage from "@/components/ui/CanvasImage";
+import { motion } from "framer-motion";
 
 export default function WorkShowcase() {
     const scrollerRef = useRef<HTMLDivElement>(null);
@@ -33,25 +34,35 @@ export default function WorkShowcase() {
     }, []);
 
     const items = [
-        { type: "video", src: "/videos/showcase-1.mp4" },
-        { type: "image", src: "/images/avatar1.png" }, // Reusing/Placeholder
-        { type: "video", src: "/videos/showcase-2.mp4" },
-        { type: "image", src: "/images/avatar2.jpg" },
-        { type: "video", src: "/videos/showcase-3.mp4" },
-        { type: "image", src: "/images/avatar3.jpg" },
-        { type: "video", src: "/videos/showcase-4.mp4" },
+        { type: "image", src: "https://placehold.co/360x480/2563eb/ffffff/png?text=Fitness+Ad" },
+        { type: "image", src: "https://placehold.co/360x480/db2777/ffffff/png?text=Tech+Review" },
+        { type: "image", src: "https://placehold.co/360x480/16a34a/ffffff/png?text=Food+Recipe" },
+        { type: "image", src: "https://placehold.co/360x480/ca8a04/ffffff/png?text=SaaS+Demo" },
+        { type: "image", src: "https://placehold.co/360x480/9333ea/ffffff/png?text=Fashion+Haul" },
+        { type: "image", src: "https://placehold.co/360x480/dc2626/ffffff/png?text=Travel+Vlog" },
+        { type: "image", src: "https://placehold.co/360x480/0891b2/ffffff/png?text=UGC+Content" },
     ];
 
     return (
         <section className="py-24 bg-white overflow-hidden w-full max-w-[100vw]">
-            <div className="text-center mb-16 px-4">
-                <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-[#1D1D1F] max-w-4xl mx-auto">
-                    You’ve probably seen our work. <br />
-                    <span className="text-gray-400">You just didn’t know it was AI.</span>
+            <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                className="text-center mb-16 px-4"
+            >
+                <h2 className="text-2xl md:text-5xl font-bold tracking-tight text-[#1D1D1F] max-w-4xl mx-auto">
+                    Viral content generated 100% by AI. <br />
+                    <span className="text-gray-400">Indistinguishable from human editing.</span>
                 </h2>
-            </div>
+            </motion.div>
 
-            <div
+            <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 1, delay: 0.2 }}
                 ref={scrollerRef}
                 className="scroller w-full md:w-[100%] mx-auto"
             >
@@ -85,7 +96,7 @@ export default function WorkShowcase() {
                         </div>
                     ))}
                 </div>
-            </div>
+            </motion.div>
 
             <style jsx>{`
         .scroller[data-animated="true"] {

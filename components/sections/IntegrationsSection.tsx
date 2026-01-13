@@ -2,22 +2,24 @@
 
 import { useRef, useLayoutEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { Instagram, Facebook, Youtube, Linkedin, Twitter, Share2, Video } from "lucide-react";
 
+// Using Lucide components directly in the array
 const BRANDS = [
-  { icon: "", color: "#2563EB" },
-  { icon: "▢", color: "#7C3AED" },
-  { icon: "a", color: "#EC4899" },
-  { icon: "▦", color: "#F59E0B" },
-  { icon: "✺", color: "#22C55E" },
-  { icon: "✓", color: "#3B82F6" },
-  { icon: "⬤", color: "#EF4444" },
+  { icon: <Instagram size={32} />, color: "#E1306C" },
+  { icon: <Facebook size={32} />, color: "#1877F2" },
+  { icon: <Youtube size={32} />, color: "#FF0000" },
+  { icon: <Linkedin size={32} />, color: "#0A66C2" },
+  { icon: <Twitter size={32} />, color: "#1DA1F2" },
+  { icon: <Share2 size={32} />, color: "#22C55E" },
+  { icon: <Video size={32} />, color: "#F59E0B" },
 ];
 
 const STATS = [
-  { value: "10M+", label: "various content assets processed" },
-  { value: "19,000+", label: "high-performing ads analyzed" },
-  { value: "27%", label: "average CTR lift across tested campaigns" },
-  { value: "95+", label: "languages supported for global brands" },
+  { value: "1M+", label: "viral videos generated" },
+  { value: "500k+", label: "editing hours saved" },
+  { value: "300%", label: "average engagement lift" },
+  { value: "30+", label: "languages supported" },
 ];
 
 export default function IntegrationsSection() {
@@ -59,25 +61,35 @@ export default function IntegrationsSection() {
       <div className="w-full max-w-[100vw] mx-auto px-4 md:px-6 overflow-hidden">
 
         {/* HEADLINE */}
-        <div className="text-center max-w-4xl mx-auto mb-24 px-4">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="text-center max-w-4xl mx-auto mb-24 px-4"
+        >
           <h2 className="text-3xl md:text-5xl font-semibold leading-tight break-words">
-            AI trained on millions of marketing assets from top ecommerce brands
+            Distribute your reels everywhere instantly
           </h2>
-        </div>
+        </motion.div>
 
         {/* VISUAL */}
-        <div
+        <motion.div
           ref={containerRef}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, delay: 0.2 }}
           className="relative flex justify-center items-center min-h-[500px] md:min-h-[820px] mb-36 overflow-hidden max-w-full w-full"
         >
 
           {/* ICON ROW */}
-          <div className="absolute top-0 flex gap-5 md:gap-14 px-4 w-full justify-center flex-wrap">
+          <div className="absolute top-0 flex flex-nowrap gap-2 md:gap-14 px-1 md:px-4 w-full justify-center transform scale-75 md:scale-100 origin-top">
             {BRANDS.map((b, i) => (
               <span
                 key={i}
                 ref={(el) => { iconRefs.current[i] = el; }}
-                className="text-2xl text-black"
+                className="text-black flex items-center justify-center bg-white p-3 rounded-full shadow-sm z-20 flex-shrink-0"
               >
                 {b.icon}
               </span>
@@ -149,14 +161,20 @@ export default function IntegrationsSection() {
               drop-shadow-2xl
             "
           />
-        </div>
+        </motion.div>
 
         {/* SUB HEADLINE */}
-        <div className="text-center mb-24">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="text-center mb-24"
+        >
           <h3 className="text-2xl md:text-3xl font-medium text-[#1D1D1F]">
-            This isn’t just AI. It’s content intelligence.
+            One click to rule every platform.
           </h3>
-        </div>
+        </motion.div>
 
         {/* STATS */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
@@ -178,6 +196,6 @@ export default function IntegrationsSection() {
         </div>
 
       </div>
-    </section>
+    </section >
   );
 }

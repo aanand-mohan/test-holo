@@ -58,13 +58,13 @@ export default function Navbar() {
       name: "Use cases",
       hasDropdown: true,
       children: [
-        { name: "Facebook Ads Maker", color: "bg-blue-100 text-blue-600" },
-        { name: "AI Newsletter Generator", color: "bg-purple-100 text-purple-600" },
-        { name: "Instagram Ads Maker", color: "bg-rose-100 text-rose-600" },
+        { name: "Facebook Reels Maker", color: "bg-blue-100 text-blue-600" },
+        { name: "AI Script Writer", color: "bg-purple-100 text-purple-600" },
+        { name: "Instagram Reels Maker", color: "bg-rose-100 text-rose-600" },
         { name: "AI UGC Generator", color: "bg-indigo-100 text-indigo-600" },
         { name: "TikTok Video Generator", color: "bg-zinc-100 text-black" },
-        { name: "Ad Generator", color: "bg-orange-100 text-orange-600" },
-        { name: "Influencer Generator", color: "bg-pink-100 text-pink-600" },
+        { name: "Video Ad Generator", color: "bg-orange-100 text-orange-600" },
+        { name: "AI Stock Avatars", color: "bg-pink-100 text-pink-600" },
       ]
     },
     { name: "Affiliate", href: "#" },
@@ -173,7 +173,7 @@ export default function Navbar() {
               href="#"
               className="flex items-center gap-2 text-sm font-semibold text-black whitespace-nowrap"
             >
-              Buy now
+              Start Generating
               <svg
                 width="12"
                 height="12"

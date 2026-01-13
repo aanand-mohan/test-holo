@@ -6,27 +6,27 @@ import { motion, AnimatePresence } from "framer-motion";
 const faqs = [
     {
         q: "What is Holo?",
-        a: "Holo is your all-in-one AI marketing tool. It creates ads, social posts, and emails that sound and look like they came from your team. No templates. No generic fluff.",
+        a: "Holo is your all-in-one AI video generator. It turns text prompts into high-performing short form video ads for TikTok, Instagram, and YouTube. No filming required.",
     },
     {
-        q: "How is this AI tool for advertising different from others?",
-        a: "Holo learns your brand DNA, is trained on millions of high-performing assets, and supports 95+ languages. It’s built for conversion, not filler content.",
+        q: "How is this different from other video tools?",
+        a: "Holo is built specifically for performance marketing. We don't just generate video; we generate ads that convert, using data from millions of viral posts.",
     },
     {
-        q: "Do I need marketing or technical knowledge?",
-        a: "No. Holo is built for founders and creators who want speed without a learning curve.",
+        q: "Do I need video editing skills?",
+        a: "No. Holo handles the editing, captions, music, and transitions automatically.",
     },
     {
         q: "What kind of content can Holo generate?",
-        a: "Ad creatives, social posts, email sequences, promotional campaigns, and more. All aligned to your brand.",
+        a: "TikToks, Instagram Reels, YouTube Shorts, and Facebook Video Ads. All optimized for mobile engagement.",
     },
     {
-        q: "Can I manage multiple brands in one account?",
-        a: "Yes. Manage up to 10 brands, each with its own workspace and Brand DNA.",
+        q: "Can I use my own footage?",
+        a: "Yes. You can upload your own clips or let our AI select from premium stock footage.",
     },
     {
         q: "Is Holo better than ChatGPT?",
-        a: "ChatGPT is general-purpose. Holo is built specifically for marketing. No prompts. No tweaking. Just ready-to-launch assets.",
+        a: "ChatGPT generates text. Holo generates ready-to-publish videos. We combine multiple AI models (for script, voice, and video) into one workflow.",
     },
     {
         q: "Do you have a free trial?",

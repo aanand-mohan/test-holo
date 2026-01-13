@@ -92,22 +92,22 @@ export default function AboutTeamSection() {
                         </h3>
 
                         <div className="space-y-6 text-gray-600 leading-relaxed text-[17px]">
-                            <p>Some of us started building online stores in high school.</p>
-                            <p>Others were launching software before we turned 21.</p>
+                            <p>Some of us started editing videos in high school.</p>
+                            <p>Others were managing YouTube channels before we turned 21.</p>
                             <p>
-                                We’ve always liked building things that work and grow. That’s
+                                We’ve always liked building things that grow. That’s
                                 how we ended up working together.
                             </p>
                             <p>
-                                Over the past few years, we helped grow brands like Sintra,
+                                Over the past few years, we helped scale channels for brands like Sintra,
                                 Pulsetto, Burga, and Moerie. We were inside those companies,
-                                doing growth, writing copy, and setting up systems.
+                                producing content, editing reels, and setting up workflows.
                             </p>
                             <p className="text-[#1D1D1F] font-medium pt-2">
                                 Now, we’re building the tool we always wished we had.
                             </p>
                             <p className="text-[#1D1D1F] font-medium">
-                                Holo is everything we learned - turned into a platform that
+                                Holo is the AI video team we learned we needed - turned into a platform that
                                 helps founders move faster.
                             </p>
                         </div>

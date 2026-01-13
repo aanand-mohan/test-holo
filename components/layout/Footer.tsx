@@ -23,7 +23,7 @@ export default function Footer() {
                             support@tryholo.ai
                         </a>
                         <p className="text-[#1D1D1F] text-base md:text-lg font-normal">
-                            Let&apos;s talk
+                            Let&apos;s talk video
                         </p>
                     </motion.div>
 

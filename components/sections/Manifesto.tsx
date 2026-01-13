@@ -74,13 +74,13 @@ export default function Manifesto() {
                                 className="w-full h-full object-contain"
                             />
                         </span>
-                        content.
+                        video ads.
                     </h2>
                 </ScrollRevealBlock>
 
                 <ScrollRevealBlock>
                     <h2 className="text-[32px] md:text-[56px] font-bold leading-[1.2] text-[#1D1D1F] tracking-tight">
-                        Using the latest AI models we capture
+                        Using the latest AI models we turn simple text into
                         <span className="inline-flex items-center justify-center w-12 h-12 md:w-20 md:h-20 mx-3 align-middle translate-y-[-8px]">
                             <video
                                 src="/videos/icon-yarn.mp4"
@@ -91,7 +91,7 @@ export default function Manifesto() {
                                 className="w-full h-full object-contain"
                             />
                         </span>
-                        your brand's essence to deliver agency-like content across all
+                        agency-quality video reels for all
                         <span className="inline-flex items-center justify-center w-12 h-12 md:w-20 md:h-20 mx-3 align-middle translate-y-[-8px]">
                             <video
                                 src="/videos/icon-music.mp4"
@@ -108,7 +108,7 @@ export default function Manifesto() {
 
                 <ScrollRevealBlock>
                     <h2 className="text-[32px] md:text-[56px] font-bold leading-[1.2] text-[#1D1D1F] tracking-tight">
-                        So you can do the work of a full team
+                        So you can scale your creative output
                         <span className="inline-flex items-center justify-center w-12 h-12 md:w-20 md:h-20 mx-3 align-middle translate-y-[-8px]">
                             <video
                                 src="/videos/icon-users.mp4"
@@ -119,7 +119,7 @@ export default function Manifesto() {
                                 className="w-full h-full object-contain"
                             />
                         </span>
-                        without hiring one.
+                        without hiring a video team.
                     </h2>
                 </ScrollRevealBlock>
 

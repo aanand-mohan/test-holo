@@ -5,27 +5,27 @@ import { Check, X } from "lucide-react";
 
 const features = [
   {
-    title: "High-performing design",
+    title: "Viral-ready templates",
     holo: true,
     others: [false, false, false],
   },
   {
-    title: "Personalised for your brand",
+    title: "Auto-branding & Captions",
     holo: true,
     others: [true, false, false],
   },
   {
-    title: "Works while you sleep",
+    title: "Generates in seconds",
     holo: true,
     others: [false, false, false],
   },
   {
-    title: "Easy-to-use, fun platform",
+    title: "No editing skills needed",
     holo: true,
     others: [true, false, true],
   },
   {
-    title: "Multi-language support",
+    title: "Auto-Translation",
     holo: true,
     others: [false, false, false],
   },
@@ -42,9 +42,9 @@ export default function OneToolSection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-[32px] md:text-[52px] font-semibold text-[#1D1D1F] leading-tight"
+            className="text-2xl md:text-[52px] font-semibold text-[#1D1D1F] leading-tight"
           >
-            1 tool to do it all
+            Stop paying for expensive editors
           </motion.h2>
 
           <motion.p
@@ -54,7 +54,7 @@ export default function OneToolSection() {
             transition={{ delay: 0.1 }}
             className="mt-3 text-lg md:text-xl text-gray-500"
           >
-            Save $400/month. Just get Holo.
+            Generate unlimited video ads for one flat monthly fee.
           </motion.p>
         </div>
 
